@@ -3,10 +3,99 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container {
+
+html {
+  line-height: 2;
+}
+.left-div, .get_headings{
+  background-color: #7fffd4;
+}
+
+.paradigm {
+  padding: 20% 0%;
+}
+/* Blessing's styles */
+.get_in_touch {
+   background-color: #ffffff;
+}
+
+/* .paradigm h1, .get_headings h2 {
+  padding: 50px 45px;
+} */
+
+.get_headings {
+  margin: auto 0px;
+  padding: 25px 0px;
+}
+
+.get_headings h2 {
+  margin: 30px 0px;
+  justify-content: center;
+}
+
+.get_para {
+  margin-top: 60px;
+}
+
+.login_details {
+  margin-top: 30px;
+}
+
+form input,
+ form textarea,
+ form button {
+  font-size: 18px;
+  line-height: 1.55;
+ }
+
+
+ .newsletter label,
+ .newsletter label {
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+ }
+
+/* .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 }
 .left-div {
-  background-color: aquamarine;
+  background-color: #7fffd4;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
 }
+
+.get_in_touch {
+  width: 100%;
+} */
+/* 
+.first_form {
+  margin-bottom: 30px;
+} */
+
+/* .get_in_touch input[type="text"],
+.get_in_touch input[type="number"] {
+  width: 100%;
+  padding: 0px 5px;
+  margin: 15px 0px;
+  border: none;
+  border-bottom: 2px dotted black;
+  background-color: #7fffd4;
+}
+
+.get_in_touch label {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+.social_icons a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 6px;
+  border-radius: 15px;
+  color: #000000;
+} */
